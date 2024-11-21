@@ -448,8 +448,8 @@ overflow: scroll;
 .reviewcard{
   
   position: relative;
-  width: 40rem;
-  height: 30rem;
+  width: 30rem;
+  height: 40rem;
   border: 1px solid #000000;
   border-radius: 2rem;
   margin: 4rem;
@@ -460,20 +460,21 @@ overflow: scroll;
 .reviewcard h3{
   font-size: 2rem;
   margin: 1.5rem;
-  justify-content: center;
+  text-align: center;
   margin-top: 5rem;
 }
 .reviewcard p{
   font-size: 1.6rem;
-  margin: 1.5rem;
+  margin: 2rem;
   margin-bottom: 2rem;
   
 }
 .reviewcard span{
-  font-size: 1.6rem;
-  margin: 2.5rem;
+  font-size: 1.5rem;
+  margin: 1.5rem;
   border-top: 1px solid #c3c2c2ee;
   padding: 1rem;
+  text-align: center;
   
 }
 .circle {
@@ -856,6 +857,17 @@ border-top: 1px solid #2e2e2eee;
   }
   .footerright{
     margin-right: 10rem;
+  }
+  .reviewcard{
+    width: 30rem;
+    height: 40rem;
+  }
+
+  @media screen and (max-width: 750px) {  
+    .reviewcard{
+      width: 30rem;
+      height: 40rem;
+    
   }
   
 }
