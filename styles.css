@@ -594,210 +594,6 @@ border-top: 1px solid #2e2e2eee;
 
 }
 
-
-@media screen and (max-width: 750px) {
-
-  .footerright{
-   margin-left: 10rem;
-   padding-bottom: 5rem;
-}
-}
-
-
-
-
-
-
-@media screen and (max-width: 750px) {
-
-  .reviewwrapper {
-    justify-content: start;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 750px) {
-
-  .plancardwrapper {
-    justify-content: start;
-    
-  }
-  .plancard {
-   padding: 2rem;
-    
-    
-  }
- 
-  
-}
-
-
-
-
-
-
-
-
-
-
-
- @media screen and (max-width: 1300px) {
-  .courses{
-    max-width: 100%;
-    margin: 0 2rem;
-  }
-  
-}
-
-@media screen and (max-width: 750px) {
-  .courses-list {
-    height: initial;
-    width: 100%;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .courses-list li {
-    width: 100%;
-  }
-
-  .courses-list li a {
-    display: block;
-    width: 100%; 
-    border-bottom: 1px solid #000000ee; 
-    padding: 1rem;
-    font-weight: 700;
-    font-size: 1.5rem;
-    color: black;
-    
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 1300px) {
-  .hero {
-    max-width: 100%;
-  }
-  .hero img {
-    max-width: inherit;
-  }
-  .hero .hero-content {
-    width: 40rem;
-    top: 4.8rem;
-    left: 2.3rem;
-  }
-}
-
-
-@media screen and (max-width: 1096px) {
-  .hero .hero-content {
-    width: 34rem;
-  }
-  
-}
-
-@media screen and (max-width: 700px) {
-  .hero picture {
-    height: 25rem;
-    object-fit: contain;
-  }
-  .hero .hero-content {
-    position: static;
-    padding: 2.4rem;
-    background: rgb(255, 255, 255);
-    box-shadow: initial;
-    width: 100%;
-    max-width: 100%;
-  }
-}
-
-@media screen and (max-width: 1096px) {
-  .right .navbar-list li:nth-of-type(1) {
-    display: none;
-  }
-}
-@media screen and (max-width: 920px) {
-  .right .navbar-list li:nth-of-type(2) {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .right .navbar-list li:nth-of-type(3),
-  .right .navbar-list li:nth-of-type(4),
-  .right .navbar-list li:nth-of-type(5) {
-    display: none;
-  }
-
-  .right .searchform {
-    border-radius: none;
-    min-width: auto;
-    border: none;
-    display: none;
-  }
-  .right .searchform input {
-    display: none;
-    padding-right: 3rem;
-  }
-  .right.searchform button {
-    cursor: pointer;
-    padding-left: 20rem;
-  }
-  .navbar .ri-menu-line{
-    display: block;
-  }
-  .navbar {
-    flex: 1;
-    background: white;
-  }
-
-  .left .navbar-logo {
-    padding-left: 20%;
-  }
-  .about{
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .about .left img {
-    max-width: 100%;
-    margin-top: 0;
-}
-.right  {
-  
-  padding: 2rem;
-}
-
-.searchformmover {
-  display: block;
-}
-}
-
 .sidebar {
   position: fixed;
   width: 100%;
@@ -845,7 +641,7 @@ border-top: 1px solid #2e2e2eee;
   border: transparent;
 }
 
-
+/* responsive */
 
 @media screen and (max-width: 1096px) {
   .about .right{
@@ -862,20 +658,146 @@ border-top: 1px solid #2e2e2eee;
     width: 30rem;
     height: 40rem;
   }
-}
-
-  @media screen and (max-width: 750px) {  
-    .reviewcard{
-      width: 30rem;
-      height: 40rem;
-    
+  .hero .hero-content {
+    width: 34rem;
   }
-  
+  .right .navbar-list li:nth-of-type(1) {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 980px) {
+
+
+@media screen and (max-width: 750px) {
+
   .footerright{
-    padding-left: 10rem;
+   margin-left: 10rem;
+   padding-bottom: 5rem;
+}
+.reviewwrapper {
+  justify-content: start;
+}
+.plancardwrapper {
+  justify-content: start;
+  
+}
+.plancard {
+ padding: 2rem;
+  
+  
+}
+.courses-list {
+  height: initial;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.courses-list li {
+  width: 100%;
+}
+
+.courses-list li a {
+  display: block;
+  width: 100%; 
+  border-bottom: 1px solid #000000ee; 
+  padding: 1rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: black;
+  
+}
+.hero picture {
+  height: 25rem;
+  object-fit: contain;
+}
+.hero .hero-content {
+  position: static;
+  padding: 2.4rem;
+  background: rgb(255, 255, 255);
+  box-shadow: initial;
+  width: 100%;
+  max-width: 100%;
+}
+.reviewcard{
+  width: 30rem;
+  height: 40rem;
+
+}
+}
+
+
+@media screen and (max-width: 1300px) {
+  .hero {
+    max-width: 100%;
+  }
+  .hero img {
+    max-width: inherit;
+  }
+  .hero .hero-content {
+    width: 40rem;
+    top: 4.8rem;
+    left: 2.3rem;
+  }
+  .courses{
+    max-width: 100%;
+    margin: 0 2rem;
   }
   
 }
+
+@media screen and (max-width: 920px) {
+  .right .navbar-list li:nth-of-type(2) {
+    display: none;
+  }
+  .right .navbar-list li:nth-of-type(3),
+  .right .navbar-list li:nth-of-type(4),
+  .right .navbar-list li:nth-of-type(5) {
+    display: none;
+  }
+
+  .right .searchform {
+    border-radius: none;
+    min-width: auto;
+    border: none;
+    display: none;
+  }
+  .right .searchform input {
+    display: none;
+    padding-right: 3rem;
+  }
+  .right.searchform button {
+    cursor: pointer;
+    padding-left: 20rem;
+  }
+  .navbar .ri-menu-line{
+    display: block;
+  }
+  .navbar {
+    flex: 1;
+    background: white;
+  }
+
+  .left .navbar-logo {
+    padding-left: 20%;
+  }
+  .about{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about .left img {
+    max-width: 100%;
+    margin-top: 0;
+}
+.right  {
+  padding: 2rem;
+}
+
+.searchformmover {
+  display: block;
+}
+}
+
+
+
+
